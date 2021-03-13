@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="biblio.css" rel="stylesheet" />
+    <script type="text/javascript" src="biblio.js" defer></script>
+    <script type="module" src="../ressources/livre.js" defer></script>
+    <script type="module" src="../ressources/collection.js" defer></script>
+    <script
+      type="text/javascript"
+      src="../ressources/collection.js"
+      defer
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Ma Bibliothèque</h1>
+      <h2>Mes Options</h2>
+      <span>
+        <button id="consulter">Consulter la bibliothèque</button>
+        <button id="ajouter">Ajouter un livre</button>
+        <button id="modifier">Modifier un livre</button>
+        <button id="supprimer">Supprimer un livre</button>
+      </span>
+      <div class="bibliotheque">
+          <h3>Bienvenue dans votre bibliothèque</h3>
+          <div id="contenuB">
+          <h4 id="nomLivre"></h4>
+          <h4 id="aut"></h4>
+          <h4 id="desc"></h4></div>
+
+        </div>
+         <div class="modifier">
+          <h3>Modifier un livre</h3>
+          <div id="contenuM"></div>
+        </div>
+         <div class="supprimer">
+          <h3>Supprimer un livre?</h3>
+          <div id="contenuS"></div>
+        </div>
+      </div>
+      <div class="Ajout">
+        <div id="AjouterLivre1">
+          <h3>Bienvenue sur le formulaire d'ajout d'un livre</h3>
+          <p>Merci de renseigner les 3 champs suivants :</p>
+          <input
+            name="nomDuLivre"
+            id="nomDuLivre"
+            placeholder="Nom du livre"
+            size="50%"
+            value=""
+          /><br />
+          <input
+            name="auteur"
+            id="auteur"
+            placeholder="auteur"
+            size="50%"
+            value=""
+          /><br />
+          <input
+            name="description"
+            id="description"
+            type="text"
+            placeholder="description"
+            size="50%"
+            value=""
+          /><br />
+          <br />
+          <button id="envoyer" type="submit">Ajouter ce livre</button>
+        </div>
+      </div>
+      <p id="test">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+        laborum, culpa delectus esse possimus vitae saepe itaque quibusdam ullam
+        molestiae perspiciatis sit commodi tempore recusandae! Deleniti minima
+        fuga adipisci qui!
+      </p>
+      <button id="backHome">Retour à l'accueil</button>
+    </div>
+  </body>
+</html>

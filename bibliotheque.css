@@ -1,0 +1,7 @@
+#blocACacher {
+  display: none;
+}
+
+#boutons {
+  display: flexbox;
+}
